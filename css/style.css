@@ -1,0 +1,31 @@
+body{
+	background: #ebf5fb;
+}
+h1{
+	color: #21618c;
+	text-align: center;
+}
+h3{
+	color: #21618c;
+}
+a{
+	font-size: 1.3em;
+	background: #2e86c1;
+	color:  #fdfefe;
+	padding:1%;
+	border-radius: 20%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	border: solid #fdfefe;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 1.5s;
+	transition-property: color, background, border, transform;
+}
+a:hover{
+	background: #fdfefe;
+	color: #2e86c1;
+	border: solid #2e86c1;
+	transform: rotate(360deg);
+}
